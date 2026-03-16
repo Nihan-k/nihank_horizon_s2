@@ -2,7 +2,7 @@
 xi = int(input("Enter the initial coordinates x : "))
 yi = int(input("Enter the initial coordinates y : "))
 
-#input starting coordinates x and y of rover
+#input final coordinates x and y of rover
 xf = int(input("Enter the final coordinates x : "))
 yf = int(input("Enter the final coordinates y : "))
 
