@@ -21,9 +21,13 @@ vf = (vi**2 + 2*a*distance)**0.5
 #checking if the final velocity exceeds the maximum velocity
 if vf > vmax:
     vf = vmax
-print("The final velocity of the rover : " ,vf)
+    dmax = (vf**2 - vi**2) / (2*a)  #calculating the distance at which final velocity  becomes maximum velocity
+    t1 = (vf - vi) / a #time taken to reach maximum velocity
+    t2 = (distance - dmax) / vf #after reaching maximum velocity , no more accelaration so the time =  distance/speed
+    t= t1 + t2 #calculating the time taken to reach the destination
 
-#calculating the time taken to reach the destination
-t = (vf - vi) / a
+else:
+    t = (vf - vi) / a #calculating the time taken to reach the 
+
 print("The time taken to reach the destination : " ,t)
-
+print("The final velocity of the rover : " ,vf)
