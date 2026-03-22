@@ -1,51 +1,46 @@
 # Nihan-k Horizon S2
 
 ## Project Overview
-This repository hosts the Horizon S2 project for Nihan-k.
+This repository is for submitting  the Horizon S2 project by Nihan k.
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+Level :  easy
+
+## Project names
+Task_1a.py
+Task_1b.py
+Task_1c.py
+
+## What does each program do 
+
+Task_1a.py : calculates the distance travelled by the rover , by reading initial and final coordinates
+Task_1b.py : an extension of the first program , where it includes motion parameters
+Task_1c.py : an extension of the second program ,  where it deals with error handling
+
+## before installation
+
+Before running this program, ensure you have the following installed:
+*   **Python:** Version 3.8 or higher (Download [here](https://www.python.org))
+*   **pip:** Python package installer (included with Python)
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Nihan-k/nihank_horizon_s2.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd nihank_horizon_s2
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
 
-## Usage
-To start the project, run:
-```bash
-npm start
-```
+Follow these steps to set up the project locally:
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m 'Add some feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a Pull Request.
+1.  **Clone the repository:**
+    bash
+    git clone https://github.com/Nihan-k/nihank_horizon_s2
+    cd Project_name ## example : cd Task_1a.py
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+2.  **Install the dependencies:**
+    bash
+    pip install -r requirements.txt
+    
 
-## Acknowledgements
-- Nihan-k for overseeing the project.
+## Running the program
+bash
+python filename.py   ## example : python Task_1b.py
+
+## what to input and what is the output
+
+The program inputs initial and final coordinates , motion parameters like accelaration ,initial velocity , final velocity and constrains like maximum velocity and uses it to calculate the distance  and time taken for the final state of the rover 
+
